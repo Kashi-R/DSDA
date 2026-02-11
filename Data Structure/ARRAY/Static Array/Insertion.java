@@ -27,6 +27,12 @@ public class Insertion {
 
     public static void main(String[] args) {
         int[] arr = { 2, 3, 4, 5 };
+        int []parray= new int[4];
+        parray[0]=2;
+        parray[1]=3;
+        parray[2]=4;
+
+        System.out.println(Arrays.toString(InsertionFirst(1, parray)));
         System.out.println(Arrays.toString(InsertionFirst(1, arr)));
         
     }
