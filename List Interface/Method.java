@@ -68,6 +68,12 @@ public class Method {
 
        System.out.println(l_list.contains("Rajiv"));
 
+       l_list.addFirst("Don");
+       
+       l_list.removeLast();
+       System.out.println(l_list);
+       //linked list supporrt extra method like addFirst,removeFirst,addLast,removeLast , 
+       //which arraylist doesn't support.
 
     }
 }
