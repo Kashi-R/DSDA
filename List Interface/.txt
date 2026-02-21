@@ -1,0 +1,2 @@
+ List interface : part of java collection framework JCF .
+ contains methods for ArrayList and LinkedList.
